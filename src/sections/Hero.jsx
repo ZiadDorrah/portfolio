@@ -38,7 +38,7 @@ export const Hero = () => {
       {/* Bg */}
       <div className="absolute inset-0">
         <img
-          src="/hero-bg.jpg"
+          src={`${import.meta.env.BASE_URL}hero-bg.jpg`}
           alt="Hero image"
           className="w-full h-full object-cover opacity-40"
         />
@@ -134,7 +134,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/ZiadDorrah.jpg"
+                  src={`${import.meta.env.BASE_URL}ZiadDorrah.jpg`}
                   alt="Ziad Dorrah"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
