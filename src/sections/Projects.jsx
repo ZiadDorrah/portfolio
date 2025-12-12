@@ -1,11 +1,13 @@
 import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
+const asset = (file) => `${import.meta.env.BASE_URL}projects/${file}`;
+
 const projects = [
   {
     title: "Schoolify",
     description:
       "Schoolify is an innovative and user-friendly platform designed to streamline and enhance the management of school-related tasks. The project provides students, teachers, and administrators with features like class schedules, assignments, grading, and more.",
-    image: "/projects/project4.png",
+    image: asset("project4.png"),
     tags: ["React.js", "Laravel", "MySQL", "Tailwind"],
     link: "#",
     github: "https://github.com/ZiadDorrah/Schoolify-Frontend",
@@ -14,7 +16,7 @@ const projects = [
     title: "NextMeals",
     description:
       "NextMeals is a full-stack recipe and meal-sharing web application built with Next.js, providing a fast, SEO-friendly, and fully responsive user experience. The app allows users to browse meals, view detailed cooking instructions, and add their own recipes through a clean and modern interface.",
-    image: "/projects/project1.png",
+    image: asset("project1.png"),
     tags: ["Next.js", "Better-sqlite3", "Slugify", "Tailwind"],
     link: "#",
     github: "https://github.com/ZiadDorrah/NextMeals",
@@ -23,7 +25,7 @@ const projects = [
     title: "To-do App",
     description:
       "A modern and responsive task management application designed to help users organize their daily activities efficiently. The app delivers a smooth user experience with clean UI components and animated interactions.",
-    image: "/projects/project2.png",
+    image: asset("project2.png"),
     tags: ["React.js", "React-router-dom", "Redux", "Bootstrap", "Motion"],
     link: "#",
     github: "https://github.com/ZiadDorrah/movies-project",
@@ -32,7 +34,7 @@ const projects = [
     title: "React Poster",
     description:
       "React Poster is a simple yet powerful full-stack posting application that allows users to create, view, and manage posts through a clean and modern interface. The frontend is built with React.js and React-Router-DOM, while the backend is handled using Node.js to provide fast and reliable API endpoints.",
-    image: "/projects/project3.png",
+    image: asset("project3.png"),
     tags: ["React.js", "Node.js", "React-router-dom"],
     link: "#",
     github: "#",
