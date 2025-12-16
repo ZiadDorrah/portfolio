@@ -37,7 +37,7 @@ const projects = [
     image: asset("project3.png"),
     tags: ["React.js", "Node.js", "React-router-dom"],
     link: "#",
-    github: "#",
+    github: "https://github.com/ZiadDorrah/React-Poster",
   },
 
 ];
