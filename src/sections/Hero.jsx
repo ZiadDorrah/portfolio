@@ -100,7 +100,7 @@ export const Hero = () => {
               </Button>
               <AnimatedBorderButton>
                 <Download className="w-5 h-5" />
-                <a href="https://drive.google.com/file/d/1POlq4TOkZrk_7CQWVUgV7u_m4mbGBbDH/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV</a>
+                <a href="https://drive.google.com/file/d/1cbkWq3SBXG-MK4fph2brN3YTiOq4P01k/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV</a>
               </AnimatedBorderButton>
             </div>
 
