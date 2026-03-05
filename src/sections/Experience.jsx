@@ -1,12 +1,30 @@
 const experiences = [
   {
-    period: "2020 — Present",
+    period: "3/2026 - Present",
+    role: "Software Engineer - ERP System Developer & Web Developer",
+    company: "Measuresoft",
+    description:
+      "Responsible for the entire Odoo system of the company, in addition to the company's website and dashboard projects for collecting data from PLC pumps.",
+    technologies: ["Odoo", "Python", "React", "Tailwind"],
+    current: true,
+  },
+  {
+    period: "12/2026 - 3/2026",
+    role: "Software Engineer - ERP System Developer",
+    company: "Menoufia University Hospitals",
+    description:
+      "Responsible for the digital transformation of the university hospitals in Menoufia and responsible for the entire hospital system.",
+    technologies: ["Oracle", "Siemens", "ERP Systems"],
+    current: false,
+  },
+  {
+    period: "2020 — 2026",
     role: "Junior Frontend Engineer",
     company: "Upwork",
     description:
       "As a Junior Frontend Engineer, I built responsive and high-performance web interfaces using modern frontend technologies. I worked on creating reusable components, improving UI/UX, and delivering fast, scalable applications.",
     technologies: ["React", "TypeScript", "Next.js", "Tailwind"],
-    current: true,
+    current: false,
   },
   {
     period: "2023 — 2025",
